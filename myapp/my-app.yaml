@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: httpd
+  name: nginx
 spec:
   containers:
-  - name: httpd
+  - name: nginx
     image: httpd
     ports:
     - containerPort: 80
